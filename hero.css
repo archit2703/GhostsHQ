@@ -340,3 +340,82 @@ body {
     transform: translateY(-20px);
   }
 }
+@media (max-width: 768px) {
+
+  #nav-bar {
+    left: 2%;
+    width: 96%;
+    height: 44px;
+    padding: 0 14px;
+  }
+
+  #nav-left p {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  #hero {
+    height: 650px;
+  }
+
+  .after-hero-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .block-left,
+  .block-center,
+  .block-right {
+    justify-content: center;
+    min-width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+
+  #nav-bar {
+    left: 0;
+    width: 100%;
+    height: 42px;
+    padding: 0 10px;
+  }
+
+  #nav-left p {
+    display: none; 
+  }
+
+  #logo {
+    height: 18px;
+  }
+
+  #hero {
+    height: 520px;
+  }
+
+  .hero-content {
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .after-hero-content {
+    gap: 14px;
+    transform: translateY(-10px);
+  }
+
+  .xbox {
+    font-size: 16px;
+  }
+
+  .xbox-text {
+    font-size: 16px;
+  }
+
+  .xbox-join {
+    padding: 12px 22px;
+    font-size: 12px;
+  }
+}
+
+
